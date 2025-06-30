@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as t,c as s,d as o}from"./main-BaaxU7u_.js";const c={},n={class:"h-100 d-flex align-center justify-md-space-between justify-center"},r=o("span",{class:"d-md-flex gap-x-4 text-primary d-none"},null,-1),a=[r];function _(d,i){return t(),s("div",n,a)}const m=e(c,[["render",_]]);export{m as default};
