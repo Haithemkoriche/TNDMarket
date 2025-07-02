@@ -25,8 +25,10 @@ declare module 'vue-router/auto-routes' {
     'dashboard': RouteRecordInfo<'dashboard', '/dashboard', Record<never, never>, Record<never, never>>,
     'forms': RouteRecordInfo<'forms', '/forms', Record<never, never>, Record<never, never>>,
     'login': RouteRecordInfo<'login', '/login', Record<never, never>, Record<never, never>>,
+    'nosproducts': RouteRecordInfo<'nosproducts', '/nosproducts', Record<never, never>, Record<never, never>>,
     'orders': RouteRecordInfo<'orders', '/orders', Record<never, never>, Record<never, never>>,
-    'products': RouteRecordInfo<'products', '/products', Record<never, never>, Record<never, never>>,
+    'product': RouteRecordInfo<'product', '/product', Record<never, never>, Record<never, never>>,
+    'product-id': RouteRecordInfo<'product-id', '/product/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     'register': RouteRecordInfo<'register', '/register', Record<never, never>, Record<never, never>>,
     'second-page': RouteRecordInfo<'second-page', '/second-page', Record<never, never>, Record<never, never>>,
   }

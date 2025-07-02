@@ -22,9 +22,9 @@ const headers = [
   { title: "Photo", key: "photo" },
   { title: "Actions", key: "actions" },
 ];
-    const accessToken = useCookie("accessToken").value;
-    const userRolesCookie = useCookie("userRoles").value;
-    console.log(userRolesCookie);
+const accessToken = useCookie("accessToken").value;
+const userRolesCookie = useCookie("userRoles").value;
+console.log(userRolesCookie);
 
 const fetchProducts = async () => {
   loading.value = true;
@@ -70,20 +70,21 @@ const submitProduct = async () => {
     if (imageFile.value) {
       formData.append("photo", imageFile.value);
     }
-
+    const accessToken = useCookie("accessToken").value;
+    console.log(accessToken);
     if (currentProduct.value.id) {
-      await axios.put(`/api/products/${currentProduct.value.id}`, formData, {
+      formData.append("_method", "PUT"); // <-- 👈 Ajoute cette ligne pour simuler un PUT
+      await axios.post(`/api/products/${currentProduct.value.id}`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
-        Authorization: `Bearer ${accessToken}`,
-        
-      },
-    });
-  } else {
-    await axios.post("/api/products", formData, {
-      headers: {
-        "Content-Type": "multipart/form-data",
-        Authorization: `Bearer ${accessToken}`,
+          Authorization: `Bearer ${accessToken}`,
+        },
+      });
+    } else {
+      await axios.post("/api/products", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+          Authorization: `Bearer ${accessToken}`,
         },
       });
     }
@@ -124,7 +125,9 @@ onMounted(() => {
 
         <VCardText>
           <VDataTable :headers="headers" :items="products" :loading="loading">
-            <template #[`item.price`]="{ item }"> {{ item.price }} € </template>
+            <template #[`item.price`]="{ item }">
+              {{ item.price }} DZD
+            </template>
 
             <template #[`item.photo`]="{ item }">
               <VImg

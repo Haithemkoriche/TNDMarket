@@ -161,7 +161,7 @@ onMounted(() => {
               </VChip>
             </template>
 
-            <template #[`item.price`]="{ item }"> {{ item.price }} € </template>
+            <template #[`item.price`]="{ item }"> {{ item.price }} DZD </template>
 
             <template #[`item.actions`]="{ item }">
               <VBtn

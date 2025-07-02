@@ -26,7 +26,11 @@ use App\Http\Controllers\Api\Admin\CentreController;
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
+Route::get('/product/{product}', [ProductController::class, 'show']);
 Route::get('/products/all', [ProductController::class, 'showAll']);
+Route::post('/orders', [OrderController::class, 'store']);
+Route::get('/product/{id}/reviews', [ProductController::class, 'reviews']);
+Route::post('/product/{id}/reviews', [ProductController::class, 'storeReview']);
 // Routes protégées par l'authentification
 Route::middleware('auth:sanctum')->group(function () {
 
@@ -50,7 +54,6 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Routes pour les commandes
     Route::get('/orders', [OrderController::class, 'index']);
-    Route::post('/orders', [OrderController::class, 'store']);
     Route::put('/orders/{order}/status', [OrderController::class, 'updateStatus']);
 
     // Routes d'administration (admin uniquement)

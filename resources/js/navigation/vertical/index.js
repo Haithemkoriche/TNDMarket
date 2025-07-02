@@ -19,7 +19,7 @@ export default [
   // Liens pour les utilisateurs normaux (role: user)
   {
     title: 'Mes Produits',
-    to: { name: 'products' },
+    to: { name: 'product' },
     icon: { icon: 'tabler-shopping-cart' },
     role: ['user']
   },

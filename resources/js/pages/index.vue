@@ -35,13 +35,19 @@ definePage({
 
         <!-- CTA Buttons -->
         <div class="d-none d-md-flex ga-3">
-          <v-btn variant="text" color="primary" class="font-weight-medium">
+          <v-btn
+            variant="text"
+            color="primary"
+            class="font-weight-medium"
+            href="/login"
+          >
             Connexion
           </v-btn>
           <v-btn
             variant="flat"
             class="gradient-btn font-weight-medium"
             elevation="0"
+            href="/register"
           >
             S'inscrire
           </v-btn>
@@ -70,10 +76,18 @@ definePage({
         </v-list-item>
         <v-divider class="my-4" />
         <v-list-item>
-          <v-btn block variant="text" color="primary" class="mb-2">
+          <v-btn
+            block
+            variant="text"
+            color="primary"
+            class="mb-2"
+            href="/login"
+          >
             Connexion
           </v-btn>
-          <v-btn block class="gradient-btn"> S'inscrire </v-btn>
+          <v-btn block class="gradient-btn" href="/register">
+            S'inscrire
+          </v-btn>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -111,6 +125,7 @@ definePage({
                 size="x-large"
                 class="gradient-btn font-weight-bold"
                 append-icon="tabler-arrow-right"
+                href="/register"
               >
                 Commencer gratuitement
               </v-btn>
@@ -437,7 +452,7 @@ definePage({
                 </h3>
                 <div class="ga-4 d-flex flex-column">
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -450,7 +465,7 @@ definePage({
                     </div>
                   </div>
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -461,7 +476,7 @@ definePage({
                     </div>
                   </div>
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -478,7 +493,7 @@ definePage({
                 <h3 class="text-h4 font-weight-bold mb-6">Interface Centres</h3>
                 <div class="ga-4 d-flex flex-column">
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -489,7 +504,7 @@ definePage({
                     </div>
                   </div>
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -502,7 +517,7 @@ definePage({
                     </div>
                   </div>
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -521,7 +536,7 @@ definePage({
                 </h3>
                 <div class="ga-4 d-flex flex-column">
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -532,7 +547,7 @@ definePage({
                     </div>
                   </div>
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -543,7 +558,7 @@ definePage({
                     </div>
                   </div>
                   <div class="d-flex align-start">
-                    <v-icon color="green" class="me-3 mt-1"
+                    <v-icon color="primary" class="me-3 mt-1"
                       >tabler-check</v-icon
                     >
                     <div>
@@ -599,7 +614,7 @@ definePage({
           <v-col cols="12" md="4">
             <v-card class="pricing-card pa-8 h-100" elevation="4">
               <div class="text-center mb-8">
-                <v-avatar class="bg-blue-lighten-4 mb-4" size="64">
+                <v-avatar class="bg-light-green-lighten-4 mb-4" size="64">
                   <v-icon color="primary" size="32">tabler-user</v-icon>
                 </v-avatar>
                 <h3 class="text-h4 font-weight-bold mb-2">Utilisateur</h3>
@@ -617,7 +632,7 @@ definePage({
                   class="pa-0 mb-2"
                 >
                   <template #prepend>
-                    <v-icon color="green" size="20" class="me-3"
+                    <v-icon color="primary" size="20" class="me-3"
                       >tabler-check</v-icon
                     >
                   </template>
@@ -632,6 +647,7 @@ definePage({
                 color="primary"
                 size="large"
                 class="font-weight-bold"
+                href="/register"
               >
                 S'inscrire gratuitement
               </v-btn>
@@ -657,11 +673,11 @@ definePage({
                   <v-icon color="white" size="32">tabler-file</v-icon>
                 </v-avatar>
                 <h3 class="text-h4 font-weight-bold mb-2">Centre</h3>
-                <p class="text-blue-lighten-2 mb-4">
+                <p class="text-light-green-lighten-2 mb-4">
                   Pour les centres d'évaluation
                 </p>
                 <div class="text-h2 font-weight-bold mb-2">4000 DZD</div>
-                <p class="text-blue-lighten-2">Par mois</p>
+                <p class="text-light-green-lighten-2">Par mois</p>
               </div>
 
               <v-list class="bg-transparent mb-8">
@@ -671,7 +687,7 @@ definePage({
                   class="pa-0 mb-2 text-white"
                 >
                   <template #prepend>
-                    <v-icon color="green-lighten-2" size="20" class="me-3"
+                    <v-icon color="light-green-lighten-2" size="20" class="me-3"
                       >tabler-check</v-icon
                     >
                   </template>
@@ -686,6 +702,7 @@ definePage({
                 color="white"
                 size="large"
                 class="font-weight-bold text-primary"
+                href="/register"
               >
                 Commencer l'essai
               </v-btn>
@@ -696,8 +713,8 @@ definePage({
           <v-col cols="12" md="4">
             <v-card class="pricing-card pa-8 h-100" elevation="4">
               <div class="text-center mb-8">
-                <v-avatar class="bg-purple-lighten-4 mb-4" size="64">
-                  <v-icon color="purple" size="32">tabler-shield-check</v-icon>
+                <v-avatar class="bg-light-green-lighten-4 mb-4" size="64">
+                  <v-icon color="primary" size="32">tabler-shield-check</v-icon>
                 </v-avatar>
                 <h3 class="text-h4 font-weight-bold mb-2">Entreprise</h3>
                 <p class="text-grey-darken-1 mb-4">Pour les organisations</p>
@@ -712,7 +729,7 @@ definePage({
                   class="pa-0 mb-2"
                 >
                   <template #prepend>
-                    <v-icon color="green" size="20" class="me-3"
+                    <v-icon color="primary" size="20" class="me-3"
                       >tabler-check</v-icon
                     >
                   </template>
@@ -722,7 +739,12 @@ definePage({
                 </v-list-item>
               </v-list>
 
-              <v-btn block color="purple" size="large" class="font-weight-bold">
+              <v-btn
+                block
+                color="primary"
+                size="large"
+                class="font-weight-bold"
+              >
                 Nous contacter
               </v-btn>
             </v-card>
@@ -843,7 +865,6 @@ definePage({
   </div>
 </template>
 
-
 <script>
 export default {
   name: "TNDMarketLanding",
@@ -861,7 +882,7 @@ export default {
       // Navigation
       navItems: [
         { title: "Accueil", href: "#home" },
-        { title: "Produits", href: "#products" },
+        { title: "Produits", href: "/nosproducts" },
         { title: "Fonctionnalités", href: "#features" },
         { title: "Tarifs", href: "#pricing" },
         { title: "Témoignages", href: "#testimonials" },
@@ -1025,6 +1046,7 @@ export default {
         }
         const data = await response.json();
         this.products = data.products || data || [];
+        console.log("Produits chargés:", this.products);
       } catch (error) {
         console.error("Erreur API:", error);
         this.productsError = error.message;
@@ -1083,7 +1105,7 @@ export default {
     getProductImageUrl(photo) {
       if (!photo) return "/api/placeholder/300/200";
       if (photo.startsWith("http")) return photo;
-      return `https://your-api-url.com${photo}`;
+      return `storage/${photo}`;
     },
 
     formatPrice(price) {
@@ -1129,7 +1151,6 @@ export default {
 .gradient-text {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1158,7 +1179,6 @@ export default {
 
 /* Navigation */
 .navbar-blur {
-  backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
@@ -1194,6 +1214,7 @@ export default {
   100% {
     transform: rotate(-2deg) translateY(0);
   }
+
   50% {
     transform: rotate(-2deg) translateY(-10px);
   }
@@ -1235,13 +1256,14 @@ export default {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 
 .line-clamp-3 {
   display: -webkit-box;
   overflow: hidden;
-  -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
 /* Features Section */
