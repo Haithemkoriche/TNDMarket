@@ -1,0 +1,347 @@
+[
+    {
+        "name": "resistance_distractions",
+        "type": "text",
+        "label": "مقاومة المشتتات"
+    },
+    {
+        "name": "interaction_autres",
+        "type": "text",
+        "label": "التفاعل مع الآخرين"
+    },
+    {
+        "name": "execution_3_etapes",
+        "type": "text",
+        "label": "تنفيذ التعليمات من 3 خطوات"
+    },
+    {
+        "name": "demande_aide",
+        "type": "text",
+        "label": "طلب المساعدة إن لزم"
+    },
+    {
+        "name": "production",
+        "type": "text",
+        "label": "الإنتاج"
+    },
+    {
+        "name": "programme_formel",
+        "type": "text",
+        "label": "أداء برنامج رسمي"
+    },
+    {
+        "name": "ecrit_nom",
+        "type": "text",
+        "label": "يكتب اسمه"
+    },
+    {
+        "name": "comprend_phrases",
+        "type": "text",
+        "label": "يفهم عبارات لفظية وإعدادات"
+    },
+    {
+        "name": "repond_questions_generales",
+        "type": "text",
+        "label": "الأجوبة عن أسئلة حول الحالة العامة"
+    },
+    {
+        "name": "participe_reunions",
+        "type": "text",
+        "label": "يشارك في اجتماعاته"
+    },
+    {
+        "name": "paie_frais",
+        "type": "text",
+        "label": "يدفع المصروف"
+    },
+    {
+        "name": "signatures_publiques",
+        "type": "text",
+        "label": "تواقيع عمومي"
+    },
+    {
+        "name": "suit_instructions_ecrites",
+        "type": "text",
+        "label": "التعليمات المكتوبة"
+    },
+    {
+        "name": "ecrit_messages",
+        "type": "text",
+        "label": "كتابة رسائل"
+    },
+    {
+        "name": "projet_simple",
+        "type": "text",
+        "label": "كليشة (شرط بسيط) مشروع بسيط"
+    },
+    {
+        "name": "exemple_message",
+        "type": "text",
+        "label": "مثال (رسالة) رسائل"
+    },
+    {
+        "name": "reagit_prenom",
+        "type": "text",
+        "label": "يتفاعل مع اسمه"
+    },
+    {
+        "name": "salutation",
+        "type": "text",
+        "label": "تحية"
+    },
+    {
+        "name": "exprime_reaction",
+        "type": "text",
+        "label": "يبدي ردة فعله (نعم / لا / نعم ممكن)"
+    },
+    {
+        "name": "interaction_presence_autre",
+        "type": "text",
+        "label": "يتفاعل مع وجود الآخر"
+    },
+    {
+        "name": "sourit",
+        "type": "text",
+        "label": "يبتسم"
+    },
+    {
+        "name": "controle_soi",
+        "type": "text",
+        "label": "يتحكم في نفسه"
+    },
+    {
+        "name": "comportement_positif",
+        "type": "text",
+        "label": "سلوك إيجابي مع الآخرين"
+    },
+    {
+        "name": "comportement_negatif",
+        "type": "text",
+        "label": "سلوك سلبي مع الآخرين"
+    },
+    {
+        "name": "participe_situations",
+        "type": "text",
+        "label": "يشارك في المواقف"
+    },
+    {
+        "name": "interaction_physique",
+        "type": "text",
+        "label": "تفاعل جسدي مناسب"
+    },
+    {
+        "name": "joue_jeux_groupes",
+        "type": "text",
+        "label": "يلعب ألعاب جماعية"
+    },
+    {
+        "name": "tri_objets",
+        "type": "text",
+        "label": "Triage d’objets"
+    },
+    {
+        "name": "assemblage",
+        "type": "text",
+        "label": "Assemblage"
+    },
+    {
+        "name": "assemblage_classification",
+        "type": "text",
+        "label": "Assemblage pour le classement"
+    },
+    {
+        "name": "utilise_outils_simples",
+        "type": "text",
+        "label": "Utilise des appareils ou des outils simples"
+    },
+    {
+        "name": "distingue_dimensions",
+        "type": "text",
+        "label": "Distingue les dimensions"
+    },
+    {
+        "name": "mesure",
+        "type": "text",
+        "label": "Mesures"
+    },
+    {
+        "name": "emballage",
+        "type": "text",
+        "label": "Emballage"
+    },
+    {
+        "name": "nettoie_espace_travail",
+        "type": "text",
+        "label": "Nettoie son espace de travail"
+    },
+    {
+        "name": "toilettes",
+        "type": "text",
+        "label": "Toilettes"
+    },
+    {
+        "name": "mange_seul",
+        "type": "text",
+        "label": "Mange seul"
+    },
+    {
+        "name": "manieres_table",
+        "type": "text",
+        "label": "Manières à table"
+    },
+    {
+        "name": "deplacements_autonomes",
+        "type": "text",
+        "label": "Déplacements autonomes"
+    },
+    {
+        "name": "respect_horaires",
+        "type": "text",
+        "label": "Gestion du temps - Respect des horaires"
+    },
+    {
+        "name": "transitions",
+        "type": "text",
+        "label": "Comportement aux transitions"
+    },
+    {
+        "name": "adapte_routine",
+        "type": "text",
+        "label": "Adaptation à la routine"
+    },
+    {
+        "name": "comportement_public",
+        "type": "text",
+        "label": "Comportement en public"
+    },
+    {
+        "name": "utilisation_temps_libre",
+        "type": "text",
+        "label": "Utilisation du temps libre"
+    },
+    {
+        "name": "activites_sociales",
+        "type": "text",
+        "label": "Activités sociales"
+    },
+    {
+        "name": "lecture_volontaire",
+        "type": "text",
+        "label": "Lecture volontaire"
+    },
+    {
+        "name": "repas_pause",
+        "type": "text",
+        "label": "Repas en temps de pause"
+    },
+    {
+        "name": "jeux",
+        "type": "text",
+        "label": "Jeux"
+    },
+    {
+        "name": "sport_discipline",
+        "type": "text",
+        "label": "Sports / Discipline"
+    },
+    {
+        "name": "apprentissage_loisirs",
+        "type": "text",
+        "label": "Nouvelles activités de loisirs"
+    },
+    {
+        "name": "temps_tache",
+        "type": "text",
+        "label": "Temps passé à une tâche"
+    },
+    {
+        "name": "rythme_travail",
+        "type": "text",
+        "label": "Rythme de travail"
+    },
+    {
+        "name": "erreurs",
+        "type": "text",
+        "label": "Pourcentage d’erreurs"
+    },
+    {
+        "name": "regles_securite",
+        "type": "text",
+        "label": "Règles de sécurité"
+    },
+    {
+        "name": "respect_biens_autrui",
+        "type": "text",
+        "label": "Respect des biens d’autrui"
+    },
+    {
+        "name": "travail_proximite",
+        "type": "text",
+        "label": "Travail à proximité d’autres"
+    },
+    {
+        "name": "relations_autorite",
+        "type": "text",
+        "label": "Relations avec l’autorité"
+    },
+    {
+        "name": "regularite",
+        "type": "text",
+        "label": "Régularité"
+    },
+    {
+        "name": "communication_besoins_base",
+        "type": "text",
+        "label": "Besoins élémentaires"
+    },
+    {
+        "name": "communication_activites",
+        "type": "text",
+        "label": "Besoins pendant les activités"
+    },
+    {
+        "name": "reagit_consigne_simple",
+        "type": "text",
+        "label": "Réagit à des instructions simples"
+    },
+    {
+        "name": "reagit_interdits",
+        "type": "text",
+        "label": "Réagit aux interdits"
+    },
+    {
+        "name": "compte_objets",
+        "type": "text",
+        "label": "Compte les objets"
+    },
+    {
+        "name": "ecrit_son_nom",
+        "type": "text",
+        "label": "Écrit son nom"
+    },
+    {
+        "name": "connait_formes_couleurs_nombres",
+        "type": "text",
+        "label": "Connaît formes, couleurs, nombres, lettres"
+    },
+    {
+        "name": "instructions_decision",
+        "type": "text",
+        "label": "Instructions avec prise de décision"
+    },
+    {
+        "name": "reagit_presence_autres",
+        "type": "text",
+        "label": "Réagit à la présence d’autres personnes"
+    },
+    {
+        "name": "relation_proches",
+        "type": "text",
+        "label": "Relations positives avec les proches"
+    },
+    {
+        "name": "observations",
+        "type": "text",
+        "label": "Observations"
+    }
+]
